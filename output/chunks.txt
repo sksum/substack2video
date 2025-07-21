@@ -1,0 +1,21 @@
+My stock portfolio is deep in the red. We’re in the midst of a painful market decline. Almost certainly triggered by the tariffs announced by the Trump administration.
+But within that big story lies a smaller, subtler one.
+You might have seen how the administration calculated those tariffs: not based on actual foreign tariffs but on trade deficits. Even more oddly, some clues suggest that a large language model like ChatGPT might have been used to come up with the formula. We may never know for sure, but the possibility itself changed my view on LLMs.
+LLMs now influence many decisions, from small everyday decisions to, potentially, global economy-wrecking decisions. And I’m not excluded. Just in the past few days, I’ve used LLMs for:
+Pricing used bicycle parts I want to sell
+Choosing a Bootstrap theme for my website (christophmolnar.com)
+Filling in invoicing details
+Even when I don’t delegate an entire decision to an LLM, I often rely on the information they generate. At least as one more data point.
+So this begs the question: What does the LLM contain in terms of knowledge, values, and biases?
+We are just beginning to understand LLMs, which also are an ever-shifting target due to continuous improvements and changes.
+Most of the behavior is determined by the training data and procedure. No one “told” the model how to compute tariffs, for example. Instead, it absorbs patterns through self-supervised learning, human feedback (RLHF), and fine-tuning. For example, RLHF might be the reason you see words like “delve” more often.
+At a meta-level, companies wield control by choosing the data, the RLHF process, and the people involved. That realization hit home when I thought about the possibility of tariffs being set by an LLM.
+But maybe I’m overreacting?
+After all, Google’s search algorithm already has massive influence over what information we see. Maybe this is just an old problem in new clothes? Think about social media feeds or YouTube recommendation loops. These systems already shape public opinion and behavior at scale.
+Still, I think LLMs introduce some new dimensions to this issue. The lack of interpretability is one. While older algorithms were often opaque too, many were at least simpler or more transparent. And LLMs are being used not just for recommendations, but for tasks like summarizing and sorting documents. Tasks that are often happening in the background with little human oversight and which often feed into other decision processes.
+A malicious actor could hide instructions in the model’s weights. Through fine-tuning, someone could plant backdoors like outputting insecure code when prompted in certain ways or feeding conspiracy theories to susceptible users based on chat history. Given this power, we need tools to understand what’s going on inside these models. One promising direction is mechanistic interpretability.
+Mechanistic Interpretability aims to reverse-engineer LLMs. Researchers have identified neurons and “circuits” (combinations of neuron activations) related to certain concepts. For example, manipulating certain neurons can make a model obsessed with the Golden Gate Bridge. Whatever you ask the model, it finds a way to talk about the Golden Gate Bridge. Or there are recent findings that the LLMs “plan ahead” when prompted to create a poem.
+Mechanistic interpretability has a lot of difficulties: LLMs are huge, concepts don’t  map neatly to single neurons, and findings are typically not universal across models.
+So far, I’ve stayed away from the topic of Mechanistic Interpretability, but now I’m getting interested as it’s becoming clear that LLMs are here to stay. 😉
+I’m currently reading “A Practical Review of Mechanistic Interpretability for Transformer-Based Language Models” to get started with MI.
+I don’t know yet where this will lead. Maybe more posts, maybe even a book. Let’s see. I let curiosity be my guide.

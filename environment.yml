@@ -1,0 +1,10 @@
+name: substack
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - beautifulsoup4
+  - pip:
+      # - torch>=2.0
+      # - torchaudio
+      # - mlx-audio @ git+https://github.com/Blaizzy/mlx-audio.git
