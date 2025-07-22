@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+.env
+.venv/
+*.env
+
+# Conda
+*.conda
+*.ipynb_checkpoints/
+env/
+kokkoro-podcast/
+*.log
+
+# Output directories
+output/audio/
+output/images/
+output/temp_video/
+output/final_video.mp4
+output/structured.json
+*.srt
+*.wav
+*.mp4
+*.txt
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# OS junk
+ehthumbs.db
+Thumbs.db
+.DS_Store
