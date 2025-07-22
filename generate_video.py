@@ -87,7 +87,7 @@ with open(video_list_path, "w") as vf:
             "ffmpeg", "-y",
             "-loop", "1", "-i", os.path.abspath(img_path),
             "-i", audio_concat_path,
-            "-vf", f"subtitles='{srt_path}'",
+            "-vf", f"subtitles='{srt_path}',scale=trunc(iw/2)*2:trunc(ih/2)*2",
             "-shortest", "-c:v", "libx264", "-tune", "stillimage",
             "-c:a", "aac", "-b:a", "192k", segment_video
         ], check=True)
